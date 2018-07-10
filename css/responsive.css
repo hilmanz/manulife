@@ -1,0 +1,416 @@
+@media screen and (max-width: 767px) {
+    /* GLOBALS */
+    h1 {font-size: 32px;}
+    h2 {font-size: 30px;}
+    h3 {font-size: 24px;}
+    h4 {font-size: 18px;}
+
+    .logo img {
+        width: 70%;
+    }
+
+    /* TYPOGRAPHY */
+    .uppercase {
+        letter-spacing: 1px;
+    }
+
+    /* SECTION */
+    .section-top-heading p,.section-top-heading h5{
+        font-size: 14px;
+    }
+
+
+    /* BUTTONS */
+    .button {
+        padding: 5px 10px;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    /* SLIDER */
+    .swiper-container{
+        height: 100vh;
+        padding:100px auto;
+    }
+    .swiper-slide h2{
+        font-size: 26px;
+        letter-spacing: normal;
+        margin-top: 20px;
+    }
+    .swiper-slide h2 span{
+        font-size: 28px;
+    }
+    .swiper-slide h2 img{
+        width: 30% !important;
+    }
+    .swiper-slide h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .swiper-slide .slider-content.left{
+        text-align: center;
+    }
+    .swiper-slide p {
+        font-size: 11px;
+        line-height: 10px;
+        margin-top: -20px;
+    }
+    .swiper-slide .buttons-group {
+        margin-top: 10px;
+    }
+
+    #quiz-mrperfect-03 h6 {
+        font-size: 10px;
+    }
+
+} /* END max-width:767px */
+
+
+@media screen and (max-width:960px) {
+    /* SLIDER */
+    .swiper-slide h2 img{
+        width: 60%;
+    }
+    .swiper-slide p {
+        font-size: 11px;
+        line-height: normal;
+        margin-top: 5px;
+        padding:0 40px;
+    }
+    .buttons-group .button {
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .button.special{
+        min-width: 255px;
+    }
+    #mrperfect-home.bcg {
+        background-image:url('../images/mrperfect/intro-cover-sm.jpg') !important;
+        background-position: center top;
+    }
+    #quiz-mrperfect-01.bcg{
+      background:url('../images/mrperfect/quiz-bg-01-sm.jpg');
+    }
+    #quiz-mrperfect-02.bcg{
+      background:url('../images/mrperfect/quiz-bg-03-sm.jpg');
+    }
+    #quiz-mrperfect-03.bcg{
+      background:url('../images/mrperfect/quiz-bg-02-sm.jpg');
+    }
+} /* END max-width:960px */
+
+
+
+/* ---- iPad 1 & 2 in portrait ---- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+    #rocker.bcg {
+        background-image:url('../images/cover2_mobile.jpg' !important);
+        background-position: center top;
+    }
+    #mrperfect.bcg {
+        background-image:url('../images/cover1_mobile.jpg');
+        background-position: center top !important;
+    }
+    #sketsamimpi.bcg {
+        background-image:url('../images/cover3_mobile.jpg');
+        background-position: right top;
+    }
+    #mrperfect-home.bcg {
+        background-image:url('../images/mrperfect/intro-cover-sm.jpg') !important;
+        background-position: center top;
+    }
+}/* ---- iPad 1 & 2 in portrait END ---- */
+
+
+
+/* ---- iPad 1 & 2 in landscape ---- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+    /* SLIDER */
+    .swiper-slide .slider-content.left{
+        text-align: center;
+    }
+    .swiper-slide .buttons-group .button {
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    #quiz-mrperfect-01.bcg{
+      background:url('../images/mrperfect/quiz-bg-01.jpg');
+    }
+    #quiz-mrperfect-02.bcg{
+      background:url('../images/mrperfect/quiz-bg-03.jpg');
+    }
+    #quiz-mrperfect-03.bcg{
+      background:url('../images/mrperfect/quiz-bg-02.jpg');
+    }
+}/* ---- iPad 1 & 2 in landscape  END ---- */
+
+
+/* ---- iPhone 6 in portrait ---- */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+    #mrperfect-home.bcg {
+        background-image:url('../images/mrperfect/intro-cover-sm.jpg') !important;
+        background-position: center top;
+    }
+    #mrperfect-home.bcg {
+        background-image:url('../images/mrperfect/intro-cover-sm.jpg') !important;
+        background-position: center top;
+    }
+    #quiz-mrperfect-02.bcg{
+      background:url('../images/mrperfect/quiz-bg-03-sm.jpg');
+    }
+    #quiz-mrperfect-03.bcg{
+      background:url('../images/mrperfect/quiz-bg-02-sm.jpg');
+    }
+    .mt-mob-150{
+        margin-top: 70px;
+    }
+}/* ---- iPhone 6 in portrait ---- END */
+
+
+/* ---- iPhone 6 in landscape ---- */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+    .swiper-slide h2 {
+        display: none;
+    }
+    .swiper-slide p {
+        display: inline-block;
+        float: left;
+        width: 50%;
+    }
+    .mt-mob-150{
+        margin-top: 70px;
+    }
+    .swiper-slide .buttons-group {
+        display: inline-block;
+        float: left;
+        width:50%;
+    }
+    #mrperfect.bcg {
+        background-image:url('../images/cover1.jpg');
+        background-repeat: no-repeat;
+        background-position: center -60px !important;
+    }
+    #mrperfect-home.bcg {
+        background-image:url('../images/mrperfect/intro-cover.jpg') !important;
+        background-position: center top;
+    }
+
+    #quiz-mrperfect-01.bcg{
+      background:url('../images/mrperfect/quiz-bg-01.jpg');
+    }
+    #quiz-mrperfect-02.bcg{
+      background:url('../images/mrperfect/quiz-bg-03.jpg');
+    }
+    #quiz-mrperfect-03.bcg{
+      background:url('../images/mrperfect/quiz-bg-02.jpg');
+    }
+    .swiper-container.the-quiz h4 {
+        margin-top: 30px;
+        margin-bottom:0;
+    }
+    .swiper-container.the-quiz .form-group {
+        margin-top:25px !important;
+        margin-bottom: 5px !important;
+    }
+    .swiper-container.the-quiz .form-group label {
+        padding: .8rem;
+    }
+}/* End iPhone 6 in Landscape */
+
+
+
+/* ---- iPhone 6 Plus in portrait ---- */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait) {
+    #mrperfect-home.bcg {
+        background-image:url('../images/mrperfect/intro-cover-sm.jpg') !important;
+        background-position: center top;
+    }
+    .mt-mob-150{
+        margin-top: 70px;
+    }
+    #mrperfect-home.bcg {
+        background-image:url('../images/mrperfect/intro-cover-sm.jpg') !important;
+        background-position: center top;
+    }
+    #quiz-mrperfect-02.bcg{
+      background:url('../images/mrperfect/quiz-bg-03-sm.jpg');
+    }
+    #quiz-mrperfect-03.bcg{
+      background:url('../images/mrperfect/quiz-bg-02-sm.jpg');
+    }
+
+}/* ---- iPhone 6 Plus in portrait ---- */
+
+
+
+/* --- iPhone 6Plus in Landscape ---- */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
+    .swiper-slide h2 {
+        display: none;
+    }
+    .swiper-slide p {
+        display: inline-block;
+        float: left;
+        width: 50%;
+    }
+    .mt-mob-150{
+        margin-top: 70px;
+    }
+    .swiper-slide .buttons-group {
+        display: inline-block;
+        float: left;
+        width:50%;
+    }
+    #mrperfect.bcg {
+        background-image:url('../images/cover1.jpg');
+        background-repeat: no-repeat;
+        background-position: center -60px !important;
+    }
+
+    #quiz-mrperfect-01.bcg{
+      background:url('../images/mrperfect/quiz-bg-01.jpg');
+    }
+    #quiz-mrperfect-02.bcg{
+      background:url('../images/mrperfect/quiz-bg-03.jpg');
+    }
+    #quiz-mrperfect-03.bcg{
+      background:url('../images/mrperfect/quiz-bg-02.jpg');
+    }
+
+    .swiper-container.the-quiz h4 {
+        margin-top: 30px;
+        margin-bottom:0;
+    }
+    .swiper-container.the-quiz .form-group {
+        margin-top:0 !important;
+        margin-bottom: 5px !important;
+    }
+    .swiper-container.the-quiz .form-group label {
+        padding: .8rem;
+    }
+}
+
+
+/* ---- iPhone 5/5S in Portrait ---- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+    .swiper-slide h2 {
+        display: none;
+    }
+    .swiper-slide p {
+        font-size: 12px !important;
+        line-height: 14px !important;
+        padding: 0;
+    }
+    .mt-mob-150{
+        margin-top: 70px;
+    }
+    #mrperfect-home.bcg {
+        background-image:url('../images/mrperfect/intro-cover-sm.jpg') !important;
+        background-position: center top;
+    }
+    .swiper-container.the-quiz .form-group {
+        margin-top:10px !important;
+        margin-bottom: 5px !important;
+    }
+    .swiper-container.the-quiz .form-group label {
+        padding: .8rem;
+    }
+
+    /* QUIZ */
+    #quiz-mrperfect-02.bcg{
+      background:url('../images/mrperfect/quiz-bg-03-sm.jpg');
+    }
+    #quiz-mrperfect-03.bcg{
+      background:url('../images/mrperfect/quiz-bg-02-sm.jpg');
+    }
+    input + label h5{
+        font-size: 12px;
+    }
+    #quiz-mrperfect-result .button.quiz {
+        letter-spacing: 1px;
+    }
+}
+
+
+/* ---- iPhone 5/5S in Landsacpe ---- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+    #mrperfect.bcg {
+        background-image:url('../images/cover1.jpg');
+        background-repeat: no-repeat;
+        background-position: center -60px !important;
+    }
+    .mt-mob-150{
+        margin-top: 70px;
+    }
+    #mrperfect-home.bcg {
+        background-image:url('../images/mrperfect/intro-cover.jpg') !important;
+        background-position: center top;
+    }
+    .swiper-slide h2 {
+        display: none;
+    }
+    .swiper-slide p {
+        display: inline-block;
+        float: left;
+        width: 50%;
+    }
+    .swiper-slide .buttons-group {
+        display: inline-block;
+        float: left;
+        width:50%;
+    }
+    .swiper-container.the-quiz h4 {
+        margin-top: 30px;
+        margin-bottom:0;
+    }
+    .swiper-container.the-quiz .form-group {
+        margin-top:0 !important;
+        margin-bottom: 5px !important;
+    }
+    .swiper-container.the-quiz .form-group label {
+        padding: .8rem;
+    }
+
+    /* QUIZ */
+    #quiz-mrperfect-01.bcg{
+      background:url('../images/mrperfect/quiz-bg-01.jpg');
+    }
+    #quiz-mrperfect-02.bcg{
+      background:url('../images/mrperfect/quiz-bg-03.jpg');
+    }
+    #quiz-mrperfect-03.bcg{
+      background:url('../images/mrperfect/quiz-bg-02.jpg');
+    }
+    #quiz-mrperfect-01 h4 {margin-bottom: 10px;}
+    input + label h5{
+        font-size: 12px;
+    }
+
+}
